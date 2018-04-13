@@ -3,7 +3,7 @@
 <head>
     <title>About me</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -14,22 +14,31 @@
 </head>
 <body>
     <div class="container-fluid px-0">
-        <div class="row justify-content-center no-gutters custom_nav">
-            <div class="col-12 col-xs-12 col-md-8 p-0">
-                <nav class="navbar navbar-inverse p-0">
-                    <h1 class="navbar-text m-0 p-2 custom_h1">Yuechang (Erin) Mei</h1>
-                    <ul class="nav navbar-right">
-                        <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    </ul>               
-                </nav>
+        <!-- Navigation Bar -->
+        <div class="row justify-content-center custom_nav">
+            <div class="col-12 col-md-5 p-0">
+                <div class="row justify-content-start h-100 w-100 m-0">
+                    <h1 class="m-0 p-2 w-100 custom_h1">Yuechang (Erin) Mei</h1>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 p-0">
+                <div class="row justify-content-end h-100 w-100 m-0" style="list-style: none;">
+                    <div class="col-4 col-md-3 align-self-center p-0">
+                        <a class="nav-link" href="index.html" style="border-right:solid 1px #cccccc;padding:0;">About</a>
+                    </div>
+                    <div class="col-4 col-md-3 align-self-center p-0">
+                        <a class="nav-link" href="portfolio.html" style="border-right:solid 1px #cccccc;padding:0;">Portfolio</a>
+                    </div>
+                    <div class="col-4 col-md-3 align-self-center p-0">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </div>
+                </div>
             </div>
         </div>
 
-    
+        <!-- Contact content -->
         <div class="row justify-content-center">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 mx-3 p-4 costum_col">
+            <div class="col-10 col-md-6 m-2 py-2 costum_col">
                 <h2>Contact</h2>
                 <hr>
                 <form>
@@ -48,11 +57,32 @@
                     <button type="submit" class="btn btn-primary" id="bnt_color">Submit</button>
                 </form>
             </div>
-        </div>
-    
 
+             <!-- size bar -->
+            <div class="col-10 col-md-3 m-2 costum_col h-50">
+                <div class="row">
+                    <div class="col-11">
+                        <h5 class="m-2">Contact with me</h5>
+                        <hr class="m-2">
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-3">
+                    <div class="col-3 p-0">
+                        <i class="fab fa-github fa-3x"></i>
+                    </div>
+                    <div class="col-3 p-0">
+                        <i class="fab fa-linkedin-in fa-3x"></i>
+                    </div>
+                    <div class="col-3 p-0">
+                        <i class="fab fa-stack-overflow fa-3x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
         <div class="row justify-content-center">
-            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 px-0">
+            <div class="col-12 px-0">
                 <footer>
                     Copyright©
                 </footer>
