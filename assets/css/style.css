@@ -106,3 +106,13 @@ footer {
     background: #4aaaa5;
     border: #ffffff;
 }
+
+iframe {
+    height:60em;
+    width: 100%;
+}
+
+.project_list:hover {
+    background: teal;
+    color: white;
+}

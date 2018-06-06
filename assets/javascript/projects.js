@@ -33,7 +33,7 @@ var projects = [project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangma
 
 function printProjectsName(){
     for(var i=0; i<projects.length; i++){
-        var list = $("<li>")
+        var list = $("<li class='project_list'>")
         list.css("list-style-type","none");
         var link = $("<a>");
         link.attr("value",projects[i].url).text(projects[i].name);

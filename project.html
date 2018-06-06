@@ -2,51 +2,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>My projects</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    
-    <!-- Added link to the jQuery Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="assets/javascript/projects.js"></script>
 </head>
 
 <body>
 
     <!-- navigation bar -->
-    <nav>
-        <div id="nav_sect">
-            <div id="logo">Yuechang (Erin) Mei</div>
-            <div style="width:100%;height:3em;">
-                <a class="nav_a"  href="projects.html">Projects</a>
-                <a class="nav_a right_border"  href="contact.html">Contact</a>
-                <a class="nav_a right_border" href="portfolio.html">Portfolio</a>
-                <a class="nav_a right_border" href="index.html">About</a>
-            </div>   
-        </div>
-    </nav>
-
-    <!-- about me content -->
-    <div class="full">
-        <div class="main clearfix">
-            
-            <iframe></iframe>
-
-            <div class="project_side">
-                <div style="margin:.5em 0 1em 0;">
-                    <h4>Projects</h4>
-                    <a href="https://github.com/gugucode">My github</a>
-                    <hr>
-                </div>
-                <div id="projects"></div>
+    <div class="row justify-content-center custom_nav">
+        <div class="col-12 col-md-5 p-0">
+            <div class="row justify-content-start h-100 w-100 m-0">
+                <h1 class="m-0 p-2 w-100 custom_h1">Yuechang (Erin) Mei</h1>
             </div>
+        </div>
+        <div class="col-12 col-md-4 p-0">
+            <div class="row justify-content-end h-100 w-100 m-0" style="list-style: none;">
+                <div class="col-4 col-md-3 align-self-center p-0">
+                    <a class="nav-link" href="index.html" style="border-right:solid 1px #cccccc;padding:0;">About</a>
+                </div>
+                <div class="col-4 col-md-3 align-self-center p-0">
+                    <a class="nav-link" href="portfolio.html" style="border-right:solid 1px #cccccc;padding:0;">Portfolio</a>
+                </div>
+                <div class="col-4 col-md-3 align-self-center p-0">
+                    <a class="nav-link" href="contact.html" style="border-right:solid 1px #cccccc;padding:0;">Contact</a>
+                </div>
+                <div class="col-4 col-md-3 align-self-center p-0">
+                    <a class="nav-link" href="project.html">Projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!-- footer -->
-        <footer>
-            <p>Copyright©️</p>
-        </footer>
+    <!-- Projects -->
+    <div class="row justify-content-center">
+        <div class="col-10 col-md-6 my-2 py-2 costum_col">
+            <iframe></iframe>
+        </div>
+
+        <div class="col-10 col-md-3 m-2 py-2 h-50 costum_col">
+            <div>
+                <h4>Projects</h4>
+                <a href="https://github.com/gugucode">My github</a>
+                <hr>
+            </div>
+            <div id="projects"></div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="row justify-content-center">
+        <div class="col-12 px-0">
+            <footer>
+                Copyright©
+            </footer>
+        </div>
     </div>
 
 </body>
