@@ -113,6 +113,27 @@ iframe {
 }
 
 .project_list:hover {
-    background: teal;
+    background: #4aaaa5;
     color: white;
+}
+
+/* projects html */
+
+img.d-block{
+    width: 100%;
+    height: 600px;
+}
+
+.project_list a{
+    font-size: small;
+}
+
+.project_list a:hover {
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
