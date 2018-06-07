@@ -37,7 +37,7 @@ var project1 = {
     name: "Where2eat",
     url: "https://karimifar.github.io/Where2eat-1.0/",
     code: "https://github.com/karimifar/Where2eat-1.0",
-    image: "assets/images/where2eat.png"
+    image: "assets/images/where2eat2.png"
 }
 
 
@@ -55,6 +55,8 @@ function printProjectsDropdown(){
 function printProjectsSlide(){
     for(var i=0; i<projects.length; i++){
         var li_indicator = $("<li data-target='#carouselExampleIndicators' data-slide-to='"+i+"'>")
+        // li_indicator.css("background","#4aaaa5");
+
         var carousel_item = $("<div class='carousel-item'>");
         if(i == 0){
             li_indicator.addClass("active");

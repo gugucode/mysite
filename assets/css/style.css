@@ -132,8 +132,12 @@ img.d-block{
     color: white;
 }
 
+.carousel-indicators li{
+    background: #4aaaa5;
+}
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
+
