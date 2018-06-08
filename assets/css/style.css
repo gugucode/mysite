@@ -1,12 +1,12 @@
 body {
     color: #777777;
-    background-image: url("../images/dust_scratches.png");
+    background-image: url("../images/darkness/darkness.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 1.5em;
 } 
 
-h2,h5 {
-    margin: 2rem 0;
+h2,h3,h5 {
+    margin: 1rem 0;
     color:#4aaaa5;
     font-family: "Georgia", Times, "Times New Roman", serif;
 }
@@ -20,7 +20,7 @@ footer {
     height: 50px;
     line-height: 70px;
     border-top: 5px solid #4aaaa5;
-    background: #666666;
+    /* background: #666666; */
     color: #ffffff;
     text-align: center;
 }
@@ -33,26 +33,39 @@ footer {
 }
 
 .custom_nav{
-    border-bottom: lightgray solid 1px;
-    background: #ffffff;
+    /* border-bottom: #4aaaa5 solid 1px; */
+    background: black;
+    box-shadow: 0 4px 8px 0 rgb(230, 240, 240), 0 6px 20px 0 rgb(230, 240, 240);
 }
 
-/* column style */
-.costum_col{
-    border: lightgray solid 1px;
-    background: #ffffff;
-} 
+.fixed-top{
+    position: fixed;
+}
+
+.nav_bnt {
+    border-right:solid 1px #cccccc;
+    padding:0;
+    text-decoration: underline;
+    text-decoration-color: white
+}
 
 /* portfilio card, image, and textbox style */
 .custom_card {
     float: left;
+    background: none
 }
+
 
 .custom_image {
     max-width: 100%;
     height: 19rem;
     float: left;
     position: relative;
+}
+
+.custom_image:hover {
+    opacity: 0.3;
+    /* visibility: hidden; */
 }
 
 .custom_text {
@@ -63,7 +76,6 @@ footer {
     position: absolute;
     bottom: 1rem;
     width: 100%;
-    background: #4aaaa5;
     text-align: center;
 }
 
@@ -105,11 +117,7 @@ footer {
 #bnt_color {
     background: #4aaaa5;
     border: #ffffff;
-}
-
-iframe {
-    height:60em;
-    width: 100%;
+    border-radius: 10%;
 }
 
 .project_list:hover {
@@ -141,3 +149,24 @@ img.d-block{
     display: table;
 }
 
+label {
+    color: #4aaaa5;
+}
+
+.input_box{
+    width: 100%;
+    background:none;
+    border:none;
+    border-bottom: solid white;
+    color: white;
+}
+
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 0px black;
+    border-bottom: red;
+}
+
+#project_detail:hover {
+    background: #4aaaa5;
+    color:white;
+}
