@@ -40,8 +40,14 @@ var project1 = {
     image: "assets/images/where2eat2.png"
 }
 
+var liribot = {
+    name: "LIRI Bot",
+    url: "https://github.com/gugucode/LIRI_Bot",
+    code: "https://github.com/gugucode/LIRI_Bot",
+    image: "assets/images/liribot.png"
+}
 
-var projects = [project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
+var projects = [liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsDropdown(){
     for(var i=0; i<projects.length; i++){
