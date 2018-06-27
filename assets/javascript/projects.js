@@ -47,7 +47,14 @@ var liribot = {
     image: "assets/images/liribot.png"
 }
 
-var projects = [liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
+var bamazon = {
+    name: "Bamazon",
+    url: "https://github.com/gugucode/bamazon",
+    code: "https://github.com/gugucode/bamazon",
+    image: "assets/images/bamazon.png"
+}
+
+var projects = [bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsDropdown(){
     for(var i=0; i<projects.length; i++){
