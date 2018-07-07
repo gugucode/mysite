@@ -54,7 +54,13 @@ var bamazon = {
     image: "assets/images/bamazon.png"
 }
 
-var projects = [bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
+var friendFinder = {
+    name: "Friend Finder",
+    url: "https://intense-harbor-57726.herokuapp.com/",
+    code: "https://github.com/gugucode/FriendFinder",
+    image: "assets/images/friendfinder.png"
+}
+var projects = [friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsDropdown(){
     for(var i=0; i<projects.length; i++){
