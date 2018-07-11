@@ -60,7 +60,15 @@ var friendFinder = {
     code: "https://github.com/gugucode/FriendFinder",
     image: "assets/images/friendfinder.png"
 }
-var projects = [friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
+
+var burger = {
+    name: "Burger",
+    url: "https://polar-brushlands-54590.herokuapp.com/",
+    code: "https://github.com/gugucode/burger",
+    image: "assets/images/burger.png"
+}
+
+var projects = [burger,friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsDropdown(){
     for(var i=0; i<projects.length; i++){
