@@ -68,7 +68,14 @@ var burger = {
     image: "assets/images/burger.png"
 }
 
-var projects = [burger,friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
+var supperClub = {
+    name: "Supper Club",
+    url: "https://stark-bayou-89637.herokuapp.com/",
+    code: "https://github.com/amirahislam/projectbadass",
+    image: "assets/images/supperclub.png"
+}
+
+var projects = [supperClub,burger,friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsDropdown(){
     for(var i=0; i<projects.length; i++){
