@@ -75,7 +75,14 @@ var supperClub = {
     image: "assets/images/supperclub.png"
 }
 
-var projects = [supperClub,burger,friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
+var scrapeNews = {
+    name: "Scrape New York Time",
+    url: "https://morning-taiga-57374.herokuapp.com/",
+    code: "https://github.com/gugucode/scrapeNews",
+    image: "assets/images/scrapenews.png"
+}
+
+var projects = [scrapeNews,supperClub,burger,friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsDropdown(){
     for(var i=0; i<projects.length; i++){
