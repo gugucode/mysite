@@ -82,7 +82,14 @@ var scrapeNews = {
     image: "assets/images/scrapenews.png"
 }
 
-var projects = [scrapeNews,supperClub,burger,friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
+var clickyGame = {
+    name: "Clicky Game",
+    url: "https://pacific-wildwood-47984.herokuapp.com/",
+    code: "https://github.com/gugucode/clickygame",
+    image: "assets/images/clickygame.png"
+}
+
+var projects = [clickyGame,scrapeNews,supperClub,burger,friendFinder,bamazon,liribot,project1,RPSMultiplayer,gifTastic,trivialGame,starWarGame,hangman];
 
 function printProjectsDropdown(){
     for(var i=0; i<projects.length; i++){
